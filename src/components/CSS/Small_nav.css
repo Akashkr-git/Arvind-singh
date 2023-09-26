@@ -1,0 +1,150 @@
+.container {
+    display: flex;
+    /* background: linear-gradient(to right,rgb(41, 128, 17), rgb(18, 164, 226) ); */
+    
+    background-color: rgb(6, 6, 6);
+    height: 40px;
+}
+.navlist {
+    width: 70%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.login {
+    width: 30%;
+    display: flex;
+}
+.navlist li {
+    list-style: none;
+}
+.navlist li a {
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+.navlist li a:hover {
+    color: #f1530e;;
+}
+.login button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-right: 40px;
+    
+}
+.login button:hover {
+    color: #f1530e;
+}
+.carousel{
+    position: relative;
+    height: 100vh;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+
+}
+.carousel #prev {
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    height: 40px;
+    background-color: rgb(133, 131, 197);
+
+}
+.carousel #next {
+    position: absolute;
+    top: 300px;
+    right: 40px;
+    height: 40px;
+    background-color: rgb(133, 131, 197);
+}
+.popup{
+    position: absolute;
+    height:300px;
+    width:270px;
+    top: 260px;
+    right:470px;
+    transition: .20s linear all;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+.formlogin {
+  
+   text-align: center;
+   padding: .7rem;
+   padding-top: 2.5rem;
+   
+}
+.formlogin input {
+    padding: 5px 19px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: .5rem;
+    background: none;
+    text-align: center;   
+}
+
+.formlogin button{
+    height: 1.7rem;
+    width: 12.8rem;
+    border: none;
+    font-family: monospace;
+    color: white;
+    background-color: orangered;
+    text-align: center;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.formlogin button:hover{
+    background-color: rgb(30, 158, 49);
+    color: black;
+}
+.forget p{
+    font-size: .7rem;
+    padding-top: 1rem;
+}
+#btn103 {
+    position: absolute;
+    top: 15px;
+    right: 18px;
+    border: none;
+    background: none;
+    font-size: medium;
+    cursor: pointer;
+}
+.formsignup{
+    text-align: center;
+    padding: .7rem;
+    padding-top: 1rem;
+}
+.formsignup input {
+    padding: 5px 19px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: .5rem;
+    background: none;
+    text-align: center; 
+}
+.formsignup button{
+    height: 1.7rem;
+    width: 12.8rem;
+    border: none;
+    font-family: monospace;
+    color: white;
+    background-color: orangered;
+    text-align: center;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
