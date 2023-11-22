@@ -1,0 +1,56 @@
+.aboutbox {
+    width: 1150px;
+    height: 510px;
+    border: 1.5px solid white;
+    position: absolute;
+    top: 540px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.886) url(./img3.jpg);
+    background-blend-mode: darken;
+    box-shadow: 15px;
+    display: flex;
+    position: relative;
+}
+.firstpart {
+    width: 50%;
+}
+.secondpart {
+    width: 50%;
+}
+.firstpart img {
+    width: 400px;
+    height: 220px;
+    margin-left: 30px;
+    margin-top: 65px;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+.firstpart h4 {
+    font-size: 15px;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.firstpart h2 {
+   color: aliceblue;
+   position: absolute;
+   top: 10px;
+   left: 30px;
+   font-size: 30px;
+}
+.secondpart h4 {
+    font-size: 15px;
+    color: aliceblue;
+    margin-right: 27px;
+    margin-top: 20px;
+}
+.secondpart img {
+    width: 400px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 140px;
+    border: 1px solid white;
+    border-radius: 8px;
+}

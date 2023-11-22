@@ -5,11 +5,14 @@ import "./CSS/services.css";
 
 const Service_List = () => {
     return (
-        <div className="list_component">
-            <div className='service_list'>
-                {Services.map((service) => (
-                    <Service key={service.id} service={service} />
-                ))}
+        <div className="body2">
+            <div className="list_component">
+                <h2>Services</h2>
+                <div className='service_list'>
+                    {Services.map((service) => (
+                        <Service key={service.id} service={service} />
+                    ))}
+                </div>
             </div>
         </div>
 

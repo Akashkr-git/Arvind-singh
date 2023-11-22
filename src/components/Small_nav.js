@@ -30,7 +30,7 @@ const Small_nav = (props) => {
       setPopupsignup(!isPopupsignup);
    };
    return (
-      <>
+      <div className="body1">
          <div className="container">
             <ul className="navlist">
                <li><a href="#HOME"> {props.link1} </a></li>
@@ -91,7 +91,7 @@ const Small_nav = (props) => {
             )}
           </div>
 
-      </>
+      </div>
    )
 }
 

@@ -35,7 +35,7 @@
 .navleft .img img {
     height: 32%;
     width: 32%;
-    border-radius: 15%;
+    border-radius: 50%;
 }
 .navright button {
     padding: 6px 8px;
@@ -74,4 +74,3 @@
 #searchicon:hover {
     background-color: #f1530e;
 }
-

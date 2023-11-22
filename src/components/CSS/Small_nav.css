@@ -1,3 +1,7 @@
+.body1 {
+    position: relative;
+}
+
 .container {
     display: flex;
     /* background: linear-gradient(to right,rgb(41, 128, 17), rgb(18, 164, 226) ); */
@@ -43,13 +47,25 @@
     color: #f1530e;
 }
 .carousel{
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 1150px;
     position: relative;
-    height: 100vh;
+    height: 533px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 15px;
 }
 
 .carousel-item img {
-    width: 100%;
-    height: 600px;
+    width: 94%;
+    height: 470px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 32px;
+    margin-top: 32px;
+    border-radius: 10px;
 
 }
 .carousel #prev {
@@ -71,11 +87,14 @@
     position: absolute;
     height:300px;
     width:270px;
-    top: 260px;
+    top: 210px;
     right:470px;
     transition: .20s linear all;
     border-radius: 15px;
-    background-color: #ffffff;
+    background-color: #000000d4;
+}
+.formlogin h2 {
+    color: aliceblue;
 }
 .formlogin {
   
@@ -113,6 +132,7 @@
 .forget p{
     font-size: .7rem;
     padding-top: 1rem;
+    color: #fff;
 }
 #btn103 {
     position: absolute;
@@ -122,6 +142,7 @@
     background: none;
     font-size: medium;
     cursor: pointer;
+    color: #fff;
 }
 .formsignup{
     text-align: center;
@@ -147,4 +168,9 @@
     margin-top: 1rem;
     border-radius: 1rem;
     cursor: pointer;
+}
+@media only screen and (min-width:1460px) {
+    #btn101 {
+        margin-left: 100px;
+    }
 }
